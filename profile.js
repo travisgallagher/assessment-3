@@ -23,3 +23,12 @@ function favRitual(event) {
 
 let ritBtn = document.querySelector(`#ritual`)
 ritBtn.addEventListener(`click`, favRitual);
+
+function adviceThanker (event) {
+	event.preventDefault(); 
+
+	window.alert ("Thank you for your advice, please let me know if you think of anything else!"); 
+}
+
+let adviceForm = document.querySelector(`#advice`);
+adviceForm.addEventListener(`submit`, adviceThanker); 

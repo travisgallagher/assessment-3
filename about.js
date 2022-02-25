@@ -23,11 +23,4 @@ let pic = document.querySelector(`#duckPic`);
 pic.addEventListener('mouseover', sendCompliment); 
 
 
-function adviceThanker (event) {
-	event.preventDefault(); 
 
-	window.alert ("Thank you for your advice, please let me know if you think of anything else!"); 
-}
-
-let adviceForm = document.querySelector(`#advice`);
-adviceForm.addEventListener(`submit`, adviceThanker); 
